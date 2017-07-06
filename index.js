@@ -1,4 +1,4 @@
-/*var express = require('express')
+var express = require('express')
 var bodyParser = require('body-parser')
 var request = require('request')
 var app = express()
@@ -50,5 +50,4 @@ function sendText (sender, text) {
 
 app.listen(app.get('port'), function () {
   console.log('run at port', app.get('port'))
-})*/
-console.log('heelo');
+})
