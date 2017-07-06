@@ -51,5 +51,4 @@ function sendText (sender, text) {
 app.listen(app.get('port'), function () {
   console.log('run at port', app.get('port'))
 })*/
-
-alert('heelo');
+console.log('heelo');
